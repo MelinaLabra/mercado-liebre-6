@@ -1,0 +1,98 @@
+@import url(style.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    /* colores */
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --gris-oscuro: #666;
+    --gris-claro: #ebebeb;
+    --verde: #39b54a;
+    /* tipografias */
+    --fuente: 'roboto', sans-serif;
+    /* tamaños tipograficos */
+    --parrafos:12px
+    --titulares: 24px;
+    --precios:18px;
+    --descuentos:16px
+    --descripciones:16px
+}
+
+.register__div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+main .register 
+.login{
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 500px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.register__container{
+    outline: black;
+}
+
+.register__birth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.register
+.login{
+      margin: 25px 0;
+}
+.register 
+.register__div 
+.register__div input {
+      width: 100%;
+      height: 30px;
+      border-radius: 5px;
+      border: none;
+}
+.register .register__div .register__type--user {
+      display: flex;
+      justify-content: space-between;
+}
+.register
+.register__div 
+.register__type--user input {
+      margin-right: 20px;
+}
+
+.register__check{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login__div--button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--celeste);
+      border: none;
+      height: 30px;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      width: 74px;
+      position: relative;
+      left: 47%;
+}
+
